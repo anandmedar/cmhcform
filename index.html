@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMHC Form</title>
+  </head>
+  <body>
+    <form id="subscriptionForm" action="" method="post">
+      <!-- Your form fields and submit button here -->
+      <div class="form-section">
+        <div class="form-section-head">
+          <img
+            src="https://www.cmhc-schl.gc.ca/cmhc-enewsletters/-/media/5FCD2150EAE14F3F9224B561C64F6463.ashx"
+            alt=""
+          />
+          <h2>
+            Sign up to get regular updates on Canada’s housing industry sent to
+            your inbox.
+          </h2>
+          <!--Varibale 4 is for header-->
+        </div>
+        <div class="row-wrapper">
+          <div class="row container-2col fixed-container">
+            <div
+              class="large-6 small-6 medium-6 columns form-section-container-left"
+            >
+              <div class="text-component text-clearfix">
+                <form
+                  class="ia-custom-form-style cmhc-newsletter-form"
+                  name="cmhc-newsletter"
+                  id="cmhc-newsletter"
+                  data-url="/en/cmhc-enewsletters/thank-you"
+                >
+                  <!-- Variable 1 is redirect URL-->
+                  <div class="form-text">
+                    <p><em>An asterisk (*) indicates a required field.</em></p>
+                  </div>
+
+                  <input
+                    name="__RequestVerificationToken"
+                    type="hidden"
+                    value="34aoVk94ggpOQfUTiZd14roxUmj7hVgDqoSiggwbnbBwC7F0M6EVPlrHrdaJR5iDZWky16_6iKZpteNDse55lfnTg0QUG6Ax3zItL8FfNdY1"
+                  />
+
+                  <div class="form-group">
+                    <input
+                      type="hidden"
+                      id="__VIEWSTATEGENERATOR"
+                      name="__VIEWSTATEGENERATOR"
+                      value="5523BD75"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="127858FF">
+                      First name
+                      <sup>*</sup>
+                    </label>
+                    <input
+                      name="127858FF"
+                      value=""
+                      class="form-control required-textfield"
+                      id="127858FF"
+                      placeholder=""
+                      type="text"
+                    />
+                    <div
+                      class="required_error_msg FieldRequired"
+                      style="display: none"
+                    >
+                      First name is required
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="127859FF">
+                      Last name
+                      <sup>*</sup>
+                    </label>
+                    <input
+                      name="127859FF"
+                      value=""
+                      class="form-control required-textfield"
+                      id="127859FF"
+                      placeholder=""
+                      type="text"
+                    />
+                    <div
+                      class="required_error_msg FieldRequired"
+                      style="display: none"
+                    >
+                      Last name is required
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="127860FF" class="form-emailbox">
+                      Email
+                      <sup>*</sup>
+                    </label>
+                    <input
+                      name="127860FF"
+                      value=""
+                      class="form-email form-control"
+                      id="127860FF"
+                      type="text"
+                    />
+                    <div class="email_error_msg" id="email_error_msg"></div>
+                    <input
+                      id="RequiredField"
+                      name="RequiredField"
+                      type="hidden"
+                      value="Email is required"
+                    />
+                    <input
+                      id="InvalidEmail"
+                      name="InvalidEmail"
+                      type="hidden"
+                      value="Invalid email"
+                    />
+                  </div>
+                  <!-- Variable 6 is for adding extra custom fields to the form -->
+
+                  <div class="form-group">
+                    <label for="10708885FF" class="form-selectbox">
+                      I represent
+                      <sup>*</sup>
+                    </label>
+                    <select
+                      name="10708885FF"
+                      value=""
+                      class="form-select"
+                      id="10708885FF"
+                      placeholder=""
+                    >
+                      <option value=""></option>
+                      <option value="Construction Industry / Developer">
+                        Construction Industry / Developer
+                      </option>
+                      <option value="Finance / Banking">
+                        Finance / Banking
+                      </option>
+                      <option value="Public sector / Government">
+                        Public sector / Government
+                      </option>
+                      <option value="Non-Profit / Association">
+                        Non-Profit / Association
+                      </option>
+                      <option value="Indigenous Organization / Government">
+                        Indigenous Organization / Government
+                      </option>
+                      <option value="Real Estate Professional">
+                        Real Estate Professional
+                      </option>
+                      <option value="Academic / Research">
+                        Academic / Research
+                      </option>
+                      <option value="Homeowner / Buyer or Renter">
+                        Homeowner / Buyer or Renter
+                      </option>
+                      <option value="General interest in Canadian housing">
+                        General interest in Canadian housing
+                      </option>
+                    </select>
+                    <div
+                      class="select_error_msg"
+                      id="represent_selectbox_error_msg"
+                      style="display: none"
+                    >
+                      "I represent" is required
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="10708905FF" class="form-selectbox">
+                      Language preference
+                      <sup>*</sup>
+                    </label>
+                    <select
+                      name="10708905FF"
+                      value=""
+                      class="form-select"
+                      id="10708905FF"
+                      placeholder=""
+                    >
+                      <option value=""></option>
+                      <option value="English">English</option>
+                      <option value="French">French</option>
+                      <option value="Bilingual">Bilingual</option>
+                    </select>
+                    <div
+                      class="select_error_msg"
+                      id="language_selectbox_error_msg"
+                      style="display: none"
+                    >
+                      Language preference is required
+                    </div>
+                  </div>
+                  <!-- Variable 3 is for showing / hiding the all mailing list checkbox using CSS -->
+
+                  <div class="form-group allMailingList">
+                    <label class="form-checkboxbtn subscribeAll-label">
+                      <input
+                        class="cb_opt1"
+                        type="checkbox"
+                        id="allMailingList"
+                        name="allMailingList"
+                      />
+                      I’d like to receive all CMHC Housing Updates, including
+                      the latest research, housing strategy, and funding
+                      opportunities.
+                    </label>
+                  </div>
+                  <div class="form-group">
+                    <div class="mondatory-singlecheckbox-validation">
+                      <label class="form-checkboxbtn checkbox-label">
+                        <input
+                          class="cb_opt1"
+                          type="checkbox"
+                          id="10709790FF"
+                          name="10709790FF"
+                          value="Yes"
+                        /><sup>*</sup>
+                        <span class="checkbox-label-text shrinkable"
+                          >By submitting this form, you hereby consent to the
+                          collection and use of personal information submitted
+                          to CMHC for marketing purposes in accordance with the
+                          <em>Privacy Act</em>. Your consent may be withdrawn at
+                          any time in accordance with Canada’s anti-spam
+                          legislation (CASL). Information collected for
+                          marketing purposes can be found on CMHC’s InfoSource
+                          under Standard Personal Information Bank Related
+                          Record Number:
+                          <a
+                            href="https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information/information-about-programs-information-holdings/standard-classes-records.html#prn939"
+                            >PRN 939</a
+                          >
+                          (Public Communications). The
+                          <em>Privacy Act</em> provides individuals with a right
+                          to access, request corrections, and protection of
+                          their personal information under the control of CMHC.
+                          Individuals have a right to file a complaint to the
+                          Privacy Commissioner of Canada regarding CMHC’s
+                          handling of personal information. Any concerns related
+                          to the treatment of such personal information may be
+                          directed to CMHC’s Privacy Office at
+                          <a href="mailto:PrivacyOffice@cmhc-schl.gc.ca"
+                            >PrivacyOffice@cmhc-schl.gc.ca</a
+                          >. Please review our <a
+                            href="~/link.aspx?_id=A09D7D742AB44AD9B2B11460FD467FE8&_z=z"
+                            >privacy policy</a
+                          > for more information.</span
+                        >
+
+                        <div
+                          class="checkbox_error_msg"
+                          id="checkboxbtn_error_msg"
+                          style="display: none"
+                        >
+                          <strong>Consent is required</strong>
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="hidden"
+                      id="FormInfo"
+                      name="FormInfo"
+                      value="e6d644a7-ad70-40d1-b7ad-d6cdd94bf439"
+                    />
+                    <!-- Variable 2 is Campaginer form ID -->
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="hidden"
+                      id="10723626FF"
+                      name="10723626FF"
+                      value=""
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input type="hidden" id="AccId" name="AccId" value="591" />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="hidden"
+                      id="127875FF"
+                      name="127875FF"
+                      value="3"
+                    />
+                  </div>
+                  <button
+                    class="formSubmit"
+                    type="submit"
+                    id="btnSave"
+                    name="formSubmit"
+                    value="formSubmit"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div
+              class="large-6 small-6 medium-6 columns form-section-container-right"
+            >
+              <div class="row-wrapper">
+                <div class="row">
+                  <div class="small-12 medium-12 large-12 columns image-main">
+                    <div class="image-component text-center">
+                      <!-- Variable 5 is for cover image URL -->
+                      <img
+                        src="-/media/5FCD2150EAE14F3F9224B561C64F6463.ashx"
+                        alt=""
+                        class="form-image-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
